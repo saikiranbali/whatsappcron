@@ -6,9 +6,9 @@ import psycopg2
 
 
 conn = psycopg2.connect(
-host="database-crm.cazl4vulkacd.ap-south-1.rds.amazonaws.com",
-database="database_crm",
-user="database_gg_crm",
+host="34.93.233.174",
+database="postgres",
+user="postgres",
 password="Crmpostgres123")
 # create a cursor
 
@@ -48,7 +48,7 @@ payload = json.dumps({
       "1": "gourmet-garden-mumbai",
       "2": "There are "+ str(banglore) +" products in Banglore, "+ str(mumbai) +" products in Mumbai, "+ str(hyderabad) +" products in Hyderabad, and "+ str(chennai) +" products in Chennai on store which are out of stock right now",
       "3": "Please dowload the latest product list from below link",
-      "4": "https://reypapaezk.execute-api.ap-south-1.amazonaws.com/",
+      "4": "https://skfb5vyli4.execute-api.ap-southeast-1.amazonaws.com/",
       "media": {
         "mediaLink": "https://www.shutterstock.com/image-photo/antwerp-belgium-december-2019-illustrative-600w-1584801160.jpg"
       }
